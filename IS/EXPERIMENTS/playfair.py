@@ -3,6 +3,12 @@ import string
 key = input("Enter key : ").upper()
 
 def make_matrix(key):
+    """
+    Generate a 5x5 matrix based on the input key.
+
+    :param key: a string representing the key to generate the matrix
+    :return: a 5x5 matrix generated based on the key
+    """
     letters = list(string.ascii_uppercase)
     for letter in key:
         if letter == 'I' or letter == 'J':
