@@ -1,7 +1,5 @@
 import random
-
 c1, c2 = 0, 0
-
 def randomized_qs(arr):
     global c1
     if len(arr) <= 1:
